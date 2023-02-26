@@ -22,7 +22,7 @@ export function Navbar(){
           <NavLink className="nav-link" to="#">Contact</NavLink>
         </li>
       </ul>
-      <NavLink className="btn btn-primary float-end" to="#">Join Us</NavLink>
+      <NavLink className="btn btn-primary float-end" to="/signup">Join Us</NavLink>
      
     </div>
   </div>
