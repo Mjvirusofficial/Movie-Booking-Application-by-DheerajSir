@@ -34,11 +34,11 @@ export function Signin(){
                 <div className="linkWrapper mb-3">
                     <span>
                     <input type="checkbox" ></input> &nbsp;
-                    <NavLink to="" >
+                    <NavLink style={{textDecoration: 'none' , color: 'black'}} to="" >
                         Remember Password
                     </NavLink>
                     </span>
-                    <NavLink to="">
+                    <NavLink style={{textDecoration: 'none' , color: 'black'}} to="">
                         Forgot Password
                     </NavLink>
                 </div>
@@ -51,7 +51,7 @@ export function Signin(){
                 
                 <span className="loginText" htmlFor="">
                 Don't have an account?  &nbsp;&nbsp;
-                <NavLink style={{textDecoration: 'none' , color: 'white'}} className="loginLink" to="/signup">
+                <NavLink style={{textDecoration: 'none' , color: 'black'}} className="loginLink" to="/signup">
                 Register</NavLink>
                 </span>
             </div>
