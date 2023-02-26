@@ -38,7 +38,7 @@ export function Signin(){
                         Remember Password
                     </NavLink>
                     </span>
-                   <span>
+                   <span className="sp" >
                    <NavLink  style={{textDecoration: 'none' , color: 'black'}} to="">
                         Forgot Password
                     </NavLink>
