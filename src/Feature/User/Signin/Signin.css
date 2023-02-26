@@ -1,5 +1,5 @@
 .signinContainer{
-    height: 105vh;
+    height: 109vh;
     display: flex;
     justify-content: center;
     background-color: #ffcc00;
@@ -87,4 +87,8 @@ input::placeholder{
 
 .sp{
    font-size: 0.8rem;
+}
+
+.check{
+    margin-bottom: 12px;
 }
