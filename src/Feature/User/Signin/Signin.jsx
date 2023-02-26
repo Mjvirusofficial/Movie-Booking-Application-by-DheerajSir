@@ -32,11 +32,11 @@ export function Signin(){
                 </div>
 
                 <div className="linkWrapper mb-3">
-                <input className="check" type="checkbox" ></input> &nbsp;
 
                     <span >
+                    <input className="check" type="checkbox" ></input> &nbsp;
                     <NavLink className="sp" style={{textDecoration: 'none' , color: 'black'}} to="" >
-                        Remember Password
+                        Remember me
                     </NavLink>
                     </span>
                    <span  >
