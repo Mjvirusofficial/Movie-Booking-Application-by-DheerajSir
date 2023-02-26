@@ -1,5 +1,5 @@
 .signinContainer{
-    height: 90vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     background-color: #ffcc00;
@@ -14,8 +14,8 @@
     background-color: rgba(68, 90, 153, 0.051);
     padding: 60px 45px;
     box-shadow: 0px 0px 29.4px 0.6px rgb(0 0 0 / 50%);
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .welcomeText{
