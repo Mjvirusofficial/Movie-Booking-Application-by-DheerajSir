@@ -32,15 +32,17 @@ export function Signin(){
                 </div>
 
                 <div className="linkWrapper mb-3">
-                    <span>
+                    <span className="sp">
                     <input type="checkbox" ></input> &nbsp;
                     <NavLink style={{textDecoration: 'none' , color: 'black'}} to="" >
                         Remember Password
                     </NavLink>
                     </span>
-                    <NavLink style={{textDecoration: 'none' , color: 'black'}} to="">
+                   <span>
+                   <NavLink  style={{textDecoration: 'none' , color: 'black'}} to="">
                         Forgot Password
                     </NavLink>
+                   </span>
                 </div>
                 <div className="btn-wrapper">
                 <button className="btn btn-primary mb-3">
