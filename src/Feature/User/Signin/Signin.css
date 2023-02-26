@@ -55,7 +55,7 @@
     border-radius:0%;
 }
 .loginText{
-    color: white;
+    color: black;
 }
 
 input::placeholder{
@@ -85,10 +85,10 @@ input::placeholder{
     color: #6d7bba;
 }
 
-.sp{
-   font-size: 0.8rem;
-}
+/* .sp{
+   font-size: 
+} */
 
 .check{
-    margin-bottom: 12px;
+    margin-bottom: px;
 }
