@@ -1,11 +1,21 @@
-.banner{
+/* .banner{
+    margin-top: 75px;
     height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+} */
+
+.r1{
+font-weight: 700;
+font-size: 5rem;
+/* font-size: 40px; */
 }
 
+.bx{
+    /* height: ; */
+}
 .banner p{
     font-size: 38px;
     line-height: 1.4;
