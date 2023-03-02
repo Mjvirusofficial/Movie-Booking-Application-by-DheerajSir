@@ -1,0 +1,25 @@
+.cardStyle{
+    background-color: #ffcc00 !important;
+    
+}
+
+.rating{
+    display: flex;
+    justify-content: start;
+    /* justify-content: space-between; */
+    margin-left: 55px;
+}
+
+.rating p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.movies{
+    -webkit-text-fill-color: transparent;
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width: 3px;
+font-size: 3rem;
+/* border-bottom: 2px solid black; */
+/* border-bottom-width: 10px; */
+}

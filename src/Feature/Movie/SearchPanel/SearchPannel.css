@@ -31,7 +31,8 @@
     width: 100%;
     padding: 36px 20px;
     background-color: white;
-    opacity: 0.35;
+    border-radius: 10px;
+    opacity: 1.35;
     display: flex;
     justify-content: space-between;
 }
@@ -39,7 +40,9 @@
 .searchWrapper{
     border-bottom: 1px solid black;
     text-align: start;
-   width: 194px;
+   width: 250px;
+   height: 6vh;
+   margin-left: -60px;
 }
 
 .searchInput{
@@ -57,7 +60,7 @@
 
 .searchIcon{ 
     color: white !important;
-    
+
 }
 
 .h2{
@@ -69,16 +72,37 @@
 
 img, svg {
     vertical-align: middle;
-    margin-left: -58px ;
+    margin-left: 0px ;
 }
 
 
 .searchOption{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: end;
+
 }
 
 .searchOption img{
     height: 6vh;
     border-radius: 99px;
+    margin-bottom: 10px;
+    /* opacity: 5.35; */
 }
+
+.searchOption label{
+    font-size: 18px;
+    margin: 8px;
+}
+
+
+.searchOption select{
+    border: none;
+    font-size: 18px;
+}
+
+
+/* .scol{
+    background-color: red;
+    display: flex;
+} */
