@@ -6,6 +6,7 @@ import { Home } from './Feature/Movie/Home/Home';
 import { Navbar } from './Feature/Shared/Navbar/Navbar';
 import { Signin } from './Feature/User/Signin/Signin';
 import { Signup } from './Feature/User/Signup/Signup';
+// import Try from './Try/Try';
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
     </Routes>
     <Footer/>
     </div>
+
+    // <>
+    //   <Try/>
+    // </>
   );
 }
 
