@@ -42,16 +42,17 @@
     text-align: start;
    width: 250px;
    height: 6vh;
-   margin-left: -60px;
+   margin-left: -20px;
 }
 
 .searchInput{
     background-color: transparent;
     border: none;
     outline: none;
-   margin-left: 0px;
+    margin-left: 0px;
     font-size: 20px;
-    text-align: start !important;
+    text-align: start ;
+    margin-left: -5px;
 }
 
 .searchInput::placeholder{
@@ -75,34 +76,3 @@ img, svg {
     margin-left: 0px ;
 }
 
-
-.searchOption{
-    /* display: flex;
-    justify-content: space-around; */
-    text-align: end;
-
-}
-
-.searchOption img{
-    height: 6vh;
-    border-radius: 99px;
-    margin-bottom: 10px;
-    /* opacity: 5.35; */
-}
-
-.searchOption label{
-    font-size: 18px;
-    margin: 8px;
-}
-
-
-.searchOption select{
-    border: none;
-    font-size: 18px;
-}
-
-
-/* .scol{
-    background-color: red;
-    display: flex;
-} */

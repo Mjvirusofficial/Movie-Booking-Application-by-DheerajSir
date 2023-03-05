@@ -11,7 +11,7 @@ function Card(mj) {
   <div class="card-body">
     <h4 class="card-title text-start"><b>{mj.title}</b></h4>
     <hr />
-    <div className="rating">
+    <div className="rating mb-3">
         <img src="https://pixner.net/boleto/demo/assets/images/movie/tomato.png" alt="" />
         &nbsp;         &nbsp;
 
@@ -25,9 +25,9 @@ function Card(mj) {
     </div>
     
     
-    <p class="card-text">{mj.desc}</p>
+    {/* <p class="card-text">{mj.desc}</p> */}
     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-    <NavLink className="nav-link active " aria-current="page" to={mj.visit}><h2 className='learn'>Learn more</h2></NavLink>
+    {/* <NavLink className="nav-link active " aria-current="page" to={mj.visit}><h2 className='learn'>Learn more</h2></NavLink> */}
 
   </div>
 </div>

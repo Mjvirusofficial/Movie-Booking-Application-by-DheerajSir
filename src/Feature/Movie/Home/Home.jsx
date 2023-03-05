@@ -1,11 +1,26 @@
 // import { Navbar } from "../../shared/NavBar/Navbar";
 // import { Banner } from "../Banner/Banner";
 // import { SearchPanel } from "../SearchPanel/SearchPanel";
+// import { useEffect, useState } from 'react';
 import { Banner } from '../Banner/Banner';
 import Card from '../Card/Card';
+import MovieData from '../MovieData/MovieData';
 import { SearchPanel } from '../SearchPanel/SearchPanel';
 import './Home.css';
 export function Home() {
+    
+    // const [movies, setMovies]=useState([]);
+
+    // useEffect(()=>{
+    //     fetch("https://www.omdbapi.com/?apikey=d272cc97&s=titanic")
+    //         .then((res)=> res.json())
+    //             .then(movies=>{
+    //                 console.log(movies)
+    //                 setMovies(movies);
+    //             })
+    // },[])
+
+
     return (
         <div>
             {/* <Navbar/> */}
@@ -18,24 +33,14 @@ export function Home() {
 
                  <div className="container mb-3">
                     <div className="row gy-3">
-                        <Card
-                             img = 'https://pixner.net/boleto/demo/assets/images/movie/movie01.jpg'
-                  title = 'Alone'
-                  desc = ''
-                  visit = ''
+                    { 
+                        MovieData.map(i =>{
+                          return  <Card
+                            img = {i.img}
+                            title = {i.tittle}
                         />
-                        <Card
-                              img = 'https://pixner.net/boleto/demo/assets/images/movie/movie01.jpg'
-                  title = 'Alone'
-                  desc = ''
-                  visit = ''
-                        />
-                        <Card
-                              img = 'https://pixner.net/boleto/demo/assets/images/movie/movie01.jpg'
-                  title = 'Alone'
-                  desc = ''
-                  visit = ''
-                        />
+                         })
+                       }
 
                     </div>
                  </div>

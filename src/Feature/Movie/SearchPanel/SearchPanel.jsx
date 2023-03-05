@@ -16,11 +16,11 @@ export function SearchPanel() {
                 </p>
 
             </div>
-            <div className='searchBox'>
+             <div className='searchBox'>
 
                 <div className="container">
                     <div className="row">
-                        <div className="col col-lg-2 text-start">
+                        <div className="col text-start">
                             <div className='searchWrapper '>
                                 <input className=' searchInput'
                                     placeholder=" Search for Movies"
@@ -31,56 +31,13 @@ export function SearchPanel() {
 
 
                             </div>
-
-
-
-                        </div>
-                        <div className="col col-lg-3 ">
-                            <div className="searchOption">
-                                <img src="http://localhost:3000/static/media/pvr.014bc162408529518e97.png" alt="" />
-                                <label htmlFor=""> City</label>
-                                <select name="" id="">
-                                    <option>Search...</option>
-                                    <option>India</option>
-                                    <option>London</option>
-                                    <option>USA</option>
-
-                                </select>
-                            </div>
-                        </div>
-
-                        <div className="col col-lg-3 ">
-                            <div className="searchOption">
-                                <img src="http://localhost:3000/static/media/pvr.014bc162408529518e97.png" alt="" />
-                                <label htmlFor=""> Date</label>
-                                <select name="" id="">
-                                    <option>Search...</option>
-                                    <option>India</option>
-                                    <option>London</option>
-                                    <option>USA</option>
-
-                                </select>
-                            </div>
-                        </div>
-
-                        <div className="col col-lg-3 ">
-                            <div className="searchOption">
-                                <img src="http://localhost:3000/static/media/pvr.014bc162408529518e97.png" alt="" />
-                                <label htmlFor=""> Movies</label>
-                                <select name="" id="">
-                                    <option>Search...</option>
-                                    <option>India</option>
-                                    <option>London</option>
-                                    <option>USA</option>
-
-                                </select>
-                            </div>
-                        </div>
+                        </div> 
                     </div>
-                </div>
-
-            </div>
+                </div> 
+            </div> 
 
         </div>
     );
 }
+
+
