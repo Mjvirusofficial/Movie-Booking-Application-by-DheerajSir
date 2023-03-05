@@ -4,7 +4,7 @@ import './Card.css'
 function Card(mj) {
   return (
     < >
-           <div className="col-12 col-md-6 col-lg-4 ">
+           <div className="col-12 col-md-6 col-lg-3 ">
 
            <div class="card ">
   <img src={mj.img} class="card-img-top m-0 cardimg" alt="..."/>

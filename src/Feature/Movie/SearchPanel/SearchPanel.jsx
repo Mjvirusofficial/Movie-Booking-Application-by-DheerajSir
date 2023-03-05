@@ -4,7 +4,14 @@
 
 import styles from "./SearchPannel.css";
 
-export function SearchPanel() {
+export function SearchPanel(mj) {
+
+
+    // function Search(data){
+    //     console.log(data)
+    // }
+
+
 
     return (
         <div className='searchPanel'>
@@ -22,7 +29,7 @@ export function SearchPanel() {
                     <div className="row">
                         <div className="col text-start">
                             <div className='searchWrapper '>
-                                <input className=' searchInput'
+                                <input  onChange={(e) => {mj.Search(e.target.value)}} className=' searchInput'
                                     placeholder=" Search for Movies"
                                     type="text" />
                                 <svg className={styles.searchIcon + ' bi bi-search'} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
