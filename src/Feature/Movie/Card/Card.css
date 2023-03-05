@@ -12,7 +12,7 @@
 
 .rating p {
     margin-top: 0;
-    margin-bottom: 0rem;
+    margin-bottom: 0px;
 }
 
 .movies{
@@ -25,5 +25,5 @@ font-size: 3rem;
 }
 
 .cardimg{
-    height: 60vh;
+    height: 55vh;
 }

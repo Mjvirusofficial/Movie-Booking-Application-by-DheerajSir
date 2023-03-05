@@ -1,6 +1,6 @@
-import dsa from './pngwing.com.png'
-// import pvr from './pvr.png'
-import pvr2 from './cam2.jpg'
+// import dsa from './pngwing.com.png'
+// // import pvr from './pvr.png'
+// import pvr2 from './cam2.jpg'
 
 
 

@@ -11,7 +11,7 @@ function Card(mj) {
   <div class="card-body">
     <h4 class="card-title text-start"><b>{mj.title}</b></h4>
     <hr />
-    <div className="rating mb-3">
+    <div className="rating ">
         <img src="https://pixner.net/boleto/demo/assets/images/movie/tomato.png" alt="" />
         &nbsp;         &nbsp;
 
